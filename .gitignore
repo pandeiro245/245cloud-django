@@ -1,3 +1,7 @@
+# python
+vpy36
+
+# django
 *.log
 *.pot
 *.pyc
@@ -5,3 +9,6 @@ __pycache__/
 local_settings.py
 db.sqlite3
 media
+
+# cloud9
+.c9
