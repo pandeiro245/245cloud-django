@@ -19,4 +19,6 @@ from django.urls import include, path
 urlpatterns = [
     path('workloads/', include('workloads.urls')),
     path('admin/', admin.site.urls),
+    path('user/', include('user_auth.urls')),
+    path('user/', include('social_django.urls', namespace='social')),
 ]
