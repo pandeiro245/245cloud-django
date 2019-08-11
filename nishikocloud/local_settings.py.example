@@ -1,0 +1,2 @@
+ALLOWED_HOSTS=['django.245cloud.com']
+SECRET_KEY=''
