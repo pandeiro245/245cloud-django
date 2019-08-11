@@ -10,5 +10,11 @@ local_settings.py
 db.sqlite3
 media
 
+# pip
+.env
+
 # cloud9
 .c9
+
+# vim
+*.sw*
